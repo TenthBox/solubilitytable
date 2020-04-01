@@ -1,0 +1,59 @@
+#title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    
+    font-size: 2rem;
+}
+
+#mainbody{
+    background-color: #f3f3f3;
+    height: 1000px;
+    max-width: 100%;
+}
+
+
+#subtitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+    padding-top:50px;
+    padding-bottom:50px;
+    font-weight: 500;
+}
+
+table{
+    max-width: 70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.headerSort{
+    padding: 0.05rem !important;
+}
+
+.table td, .table th {
+    padding: .05rem !important;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+
+td:hover { transform: scale(2.0); z-index:30000; box-shadow: 4px 2px 54px 2px rgba(0,0,0,0.16) !important;}
+
+td:hover h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.5rem !important;
+    display: block;
+}
+
+h2{
+    display: none;
+}
+
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
